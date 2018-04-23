@@ -14,6 +14,7 @@ install: all
 
 uninstall:
 	rm $(INSTALLDIR)/$(EXECUTABLE)
+	sudo launchctl unload /Library/LaunchDaemons/keylogger.plist
 	rm /Library/LaunchDaemons/$(PLIST)
 
 startup: install
